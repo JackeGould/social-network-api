@@ -1,4 +1,4 @@
-const { Schema } = require("mongoose");
+const { Schema, model } = require("mongoose");
 
 const validateEmail = function (email) {
     var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -40,7 +40,7 @@ const userSchema = new Schema(
 );
 
 // Create a virtual called friendCount that retrieves the length of the user's friends array field on query.
-applicationSchema
+userSchema
   .virtual('friendCount')
   // Getter
   .get(function () {

@@ -20,9 +20,11 @@ SO THAT my website can handle large amounts of unstructured data
 
 ## Assets
 
-The following image demonstrates the web application's appearance and functionality:
+Watch the video demo!
 
-![Watch the video](https://app.screencastify.com/v3/watch/rRp1MztOliM1hUvyh1qe)
+<video width="600" controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+</video>
 
 ## Deployment
 

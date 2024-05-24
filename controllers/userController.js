@@ -20,7 +20,7 @@ module.exports = {
 
   async getSingleUser(req, res) {
     try {
-      const user = await User.findById({ _id: req.params.userId }).populate('thoughts');
+      const user = await User.findById({ _id: req.params.userId });
 
       if (!user) {
         return res.status(404).json({ message: 'No user with that ID' });
@@ -125,6 +125,6 @@ module.exports = {
     } catch (err) {
       res.status(500).json(err);
     }
-  }
+  },
 
-}
+};

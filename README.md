@@ -22,7 +22,7 @@ SO THAT my website can handle large amounts of unstructured data
 
 Watch the video demo!
 
-<iframe src="https://drive.google.com/file/d/1j60gQSWEekYmuqpyCvaD8_OTE0b1t0cn/preview" width="640" height="480" allow="autoplay"></iframe>
+https://drive.google.com/file/d/1j60gQSWEekYmuqpyCvaD8_OTE0b1t0cn/view?usp=sharing
 
 ## Deployment
 

@@ -22,9 +22,7 @@ SO THAT my website can handle large amounts of unstructured data
 
 Watch the video demo!
 
-<video width="600" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1j60gQSWEekYmuqpyCvaD8_OTE0b1t0cn/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Deployment
 
